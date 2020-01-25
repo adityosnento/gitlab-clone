@@ -1,5 +1,5 @@
 *{
-    box-sizing; border-box;
+    box-sizing: border-box;
 }
 
 div{
@@ -56,7 +56,7 @@ nav {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    width: 88%;
+    width: 100%;
     height: 58px;
     font-size: .9em;
     z-index: 1000;
@@ -90,7 +90,7 @@ nav ul li a{
 .hero-container{
     position: relative;
     background: linear-gradient(270deg, #48367d 0%, #241842 100%);
-    height: 73.5vh;
+    height: 103vh;
     padding: 80px 20px;
     padding-bottom: 170px;
     display: flex;
@@ -252,6 +252,8 @@ h1{
 
 .hero-content-right{
     margin-top: 25px 25px 20px 30px;
+    display: flex;
+    align-items: baseline;
 }
 .white-paper{
     width: 250px;
@@ -263,12 +265,13 @@ h1{
     align-items: center;
 }
 
-span{
+.hero-content-right span{
     border-bottom: 1px solid;
     padding-bottom: 5px;
     display: inline-block;
     font-size: 20px;
-    margin-left: -20px;
+    justify-content: center;
+
 }
 
 .simple-middle-square{
@@ -442,7 +445,7 @@ span{
     color: rgba(255,255,255,0.7);
     padding: 40px;
     width: 110%;
-    margin-left: -45px;
+    margin-left: -60px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -495,6 +498,10 @@ span{
     padding-right: 15px;
 }
 
+.gitlab-cont2 .position-relative{
+    position: relative;
+}
+
 .gitlab-container .gitlab-cont2{
     padding: 50px 20px;
     display: flex;
@@ -503,3 +510,279 @@ span{
     align-items: center;
     text-align: center;
 }
+
+.gitlab-container .gitlab-cont2 .gitlab-service{
+    font-size: 24px;                          
+    margin-top: 27px;
+    margin-bottom: 13.5px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.gitlab-container .gitlab-cont2 p{
+    font-size: 24px;
+    margin: 0 0 13.5px;
+    max-width: 800px;
+    line-height: 38px;
+}
+
+.table-container {
+    position: relative;
+    margin-left: 80px;
+    width: 93%;
+}
+
+
+.table-content1{
+    top: 208px;
+    position: absolute;
+    right: calc(100% + 20px);
+    text-align: right;
+    color: #828282;
+    font-size: 15px;
+}
+
+.table-content2{
+    bottom: 100px;
+    position: absolute;
+    right: calc(100% + 20px);
+    text-align: right;
+    color: #828282;
+    font-size: 15px;
+}
+
+.table-row{
+    display: flex;
+    position: relative;
+    width: 100%;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    flex-direction: row;
+}
+
+.table-row .table-clm {
+    border-right: 1px solid #e7e7e7;
+    flex-direction: column;
+    position: relative;
+}
+
+.table-row .table-clm .logo-container-1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.table-row .table-clm .logo-container-1 svg{
+    height: 44px;
+    margin-bottom: 5px;
+    fill: #548;
+}
+    
+.solution-container-1 {
+    padding: 20px 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    flex: 1;
+}
+
+.future-solution-1 {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    column-gap: 30px;
+    column-span: initial;
+}
+
+.logo-solution-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.font-bold{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.logo-solution-1 svg {
+    display: block;
+    max-height: calc(100% - 40px);
+    max-width: 80%;
+    width: auto;
+}
+
+.logo-solution-1 img {
+    display: block;
+    max-height: calc(100% - 40px);
+    max-width: 60%;
+    width: auto;
+}
+
+.space-table {
+    margin-top: 20px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px
+}
+
+.button-margin {
+    display: inline-block;
+    position: relative;
+    vertical-align:middle;
+    margin-left: 15px;
+}
+
+.button-orange{
+    background-color: #e65328;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 30px;
+    font-size: 18px;
+    line-height: 40px;
+    min-width: 140px;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    text-decoration: none;
+    border: #e65328;;
+    
+}
+
+.button-purple{
+    background-color: #548;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 30px ;
+    font-size: 18px;
+    line-height: 40px;
+    min-width: 140px;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 4px;
+    padding-left: 18.6px;
+    text-decoration: none;
+    border-color: #5f43ad
+}
+
+/* End Of Section 5 */
+
+/* Section 6 */
+.new-feature{
+    position: relative;
+    color:#ffffff;
+    overflow: hidden;
+    display: block;
+    width: 118%;
+    margin-left: -75px;
+    height: 75vh;
+}
+
+.new-feature::before{
+    position: absolute;
+    top: 0;
+    left: -6.6%;
+    width: 100%;
+    height: 100%;
+    background: url(Gambar/New\ Feature/sky-bg.jpg) 50% 100%/cover no-repeat;
+    content: "";
+}
+
+.background-feature {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 233px;
+    line-height: 1;
+    text-align: center;
+}
+
+.feature-description{
+    padding: 136px 80px 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    overflow: hidden;
+}
+
+.feature-description{
+    background-image: url(Gambar/New\ Feature/mountain.png);
+    top: 80px;
+}
+
+.feature-description-center{
+    z-index: 1;
+    text-align: center;
+}
+
+.feature-description-center h3{
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.feature-description-center p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.feature-description-center button{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 40px;
+    min-width: 140px;
+    padding: 30px 40px;
+    color: rgb(225, 67, 41);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    transition: all 0.2s ease 0s;
+    display: inline-block;
+    margin-bottom: 0px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    line-height: 1.5;
+    user-select: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+
+/* End Of Section 6 */
