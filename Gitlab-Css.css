@@ -319,7 +319,6 @@ h1{
     border-radius: 4px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     float: none;
-    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     margin: 0px 15px 0px 15px;
     min-width: 360px;
@@ -734,6 +733,7 @@ h1{
 .feature-description{
     background-image: url(Gambar/New\ Feature/mountain.png);
     top: 80px;
+    max-width: 93.4%;
 }
 
 .feature-description-center{
@@ -783,6 +783,118 @@ h1{
     border-radius: 4px;
     margin-top: 20px;
 }
-
-
 /* End Of Section 6 */
+
+/* Section 7 */
+.container{
+    width: 1200px;
+}
+
+.title-card {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    padding: 10px;
+    
+}
+
+.grid-container::after{
+    clear: both;
+    content: " ";
+    display: table;
+    box-sizing: border-box;
+}
+
+.grid-link{
+    text-decoration: none;
+    
+}
+.grid-picture1{
+    width: 100%;
+    min-height: 180px;
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.2s cubic-bezier(0, 0, 0, 1) 0s;
+    background-image: url(Gambar/New\ Feature/serverless-ops-blog.jpg);
+}
+
+.grid-picture2{
+    width: 100%;
+    min-height: 180px;
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.2s cubic-bezier(0, 0, 0, 1) 0s;
+    background-image: url(Gambar/New\ Feature/default-blog-image.png);
+}
+
+.grid-picture3{
+    width: 100%;
+    min-height: 180px;
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.2s cubic-bezier(0, 0, 0, 1) 0s;
+    background-image: url(Gambar/New\ Feature/stairs_cover.jpg);
+}
+
+.grid-padding{
+    height: 63.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1;
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    text-decoration: none;
+    
+
+}
+
+.grid-title{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom:13.5px;
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.grid-by{
+    color: rgb(130, 130, 130);
+    margin: 0px 0px 13.5px;
+}
+
+.grid-description{
+    color: rgb(0, 0, 0);
+    margin: 0px 0px 13.5px;
+    text-decoration: none;
+}
+
+.grid-link {
+    
+}
+
+/* End Of Section 7 */
+
+/* Section 8 */
+
+.grid-picture4{
+    width: 100%;
+    min-height: 180px;
+    background-size: cover !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all 0.2s cubic-bezier(0, 0, 0, 1) 0s;
+    background-image: url(Gambar/New\ Feature/feature-thumb-webcast.png);
