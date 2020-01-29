@@ -204,7 +204,7 @@ h1{
     line-height: 1.5em;
 }
 
-.button-container{
+.button-container1{
     justify-content: flex-start;
     transform: translateY(20px);
     margin-top: 40px;
@@ -251,27 +251,33 @@ h1{
 }
 
 .hero-content-right{
-    margin-top: 25px 25px 20px 30px;
-    display: flex;
-    align-items: baseline;
-}
-.white-paper{
-    width: 250px;
-    float: left;
     position: relative;
     min-height: 1px;
+    padding-left: 15px;
     padding-right: 15px;
-    margin: 60px -10px 20px -30px;
-    align-items: center;
+    width: 33.3333333333%;
+    float: left;
+    padding-right: 120px;
+    margin-top:30px;
+}
+.white-paper{
+    display: block;
+    margin: 0 auto 20px auto;
+    transition: 0.2s cubic-bezier(0, 0, 0, 1);
+    width: 250px;
+    max-width: 100%;
+    padding-top: 70px;
+
 }
 
 .hero-content-right span{
-    border-bottom: 1px solid;
-    padding-bottom: 5px;
+    border-bottom: 1px solid rgba(255,255,255,0.7);
     display: inline-block;
-    font-size: 20px;
-    justify-content: center;
-
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    padding-top: 0px;
+    margin-left: 30px;
+    font-size: 24px;
 }
 
 .simple-middle-square{
@@ -635,7 +641,8 @@ h1{
 .button-container{
     display: flex;
     justify-content: center;
-    margin-bottom: 80px
+    margin-bottom: 80px;
+    margin-top: 60px;
 }
 
 .button-margin {
@@ -803,7 +810,7 @@ h1{
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
     padding: 10px;
-    
+    margin:60px;
 }
 
 .grid-container::after{
@@ -814,9 +821,9 @@ h1{
 }
 
 .grid-link{
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
+
 .grid-picture1{
     width: 100%;
     min-height: 180px;
@@ -883,6 +890,7 @@ h1{
 }
 
 .grid-link {
+    margin-top: auto;
     
 }
 
@@ -898,3 +906,126 @@ h1{
     background-repeat: no-repeat;
     transition: all 0.2s cubic-bezier(0, 0, 0, 1) 0s;
     background-image: url(Gambar/New\ Feature/feature-thumb-webcast.png);
+    text-decoration: none;
+}
+
+.grid-container .grid-link2 {
+    text-decoration: none;
+}
+/* End Of Section 8 */
+
+
+/* Section 9 */
+
+.footergitlab{
+    position: relative;
+    padding-top: 50px;
+    margin-top: 80px;
+    padding-bottom: 50px;
+    background-color: rgb(107, 79, 187);
+    color: #ffffff;
+    z-index: 9;
+    text-align: left;
+    display: block;
+}
+
+.footergitlab svg{
+    position: absolute;
+    top: -36px;
+    left: 50%;
+    margin-left: -32.5px;
+}
+
+.social-media-container{
+    width: 1200px;
+    transition: all .2s linear;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.social-media-logo{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-bottom: 16px;
+    text-align: center;
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 80px;
+}
+
+.footer ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-bottom: 16px;
+}
+
+.social-media-logo li {
+    display: inline-block;
+    width: 45px;
+    font-size: 23px;
+}
+
+.social-media-logo a{
+    font-size:28px;
+    align-items: center;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+
+.footer-container-description{
+    padding: 24px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.footer-container-description h3{
+    margin-left: 33px;
+}
+
+.footer-link-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.footer-list{
+    position: relative;
+    padding-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    background: #6b4fbb;
+    color: #fff;
+    z-index: 9;
+    text-align: left;
+    list-style: none;
+    text-decoration: none;
+    line-height: 30px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.footer-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    text-decoration: none;
+}
