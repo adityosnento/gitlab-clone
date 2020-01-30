@@ -74,7 +74,9 @@ body {
 }
 
 .title-padding h1{
-    padding-left: 85px;
+    padding-left: 80px;
+    font-size: 40px;
+    font-weight: 400;
 }
 
 .title-padding title {
@@ -249,12 +251,12 @@ form {
     font-weight: 400;
     white-space: nowrap;
     transition: background-color 100ms linear, border-color 100ms linear, color 100ms linear, box-shadow 100ms linear;
+    
 }
 
 .signin-padding {
     border-radius: 0.25rem;
     font-size: 13px;
-    box-shadow: 0 0 0 1px #e5e5e5;
     box-shadow: 0 0 0 1px #e5e5e5;
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
@@ -290,6 +292,8 @@ form {
     color: #2e2e2e;
     white-space: nowrap;
     text-decoration: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
 }
 
 .social-media-padding img{
@@ -311,9 +315,10 @@ form {
     background-color: #fff;
     border-color: #e5e5e5;
     color: #2e2e2e;
-    color: #2e2e2e;
     white-space: nowrap;
     text-decoration: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
 }
 
 .twitter-padding {
@@ -327,9 +332,10 @@ form {
     background-color: #fff;
     border-color: #e5e5e5;
     color: #2e2e2e;
-    color: #2e2e2e;
     white-space: nowrap;
     text-decoration: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
 }
 
 .bitbucket-padding {
@@ -343,9 +349,10 @@ form {
     background-color: #fff;
     border-color: #e5e5e5;
     color: #2e2e2e;
-    color: #2e2e2e;
     white-space: nowrap;
     text-decoration: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
 }
 
 .salesforce-padding {
@@ -361,6 +368,8 @@ form {
     color: #2e2e2e;
     white-space: nowrap;
     text-decoration: none;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
 }
 
 .remember-me-checkbox{
