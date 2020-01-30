@@ -9,7 +9,7 @@ div{
 body{
     margin: 0;
     padding: 0;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "Source Sans Pro";
     color: #333333;
     background-color: #f9f9f9;
     letter-spacing: 0.1px;
@@ -41,6 +41,7 @@ nav .Sign-Up{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 600;
 
 }
 
@@ -67,13 +68,9 @@ nav {
 nav ul {
     list-style: none;
     position: initial;
-    display: inline-table;
+    display: flex;
     
  }
-
-nav ul li{
-    float:right;
-}
 
 nav ul li:hover a{
     color:#fff;
@@ -82,7 +79,7 @@ nav ul li:hover a{
 
 nav ul li a{
     display: block;
-    padding: 20px;
+    padding: 15px;
     color: #fff;
     text-decoration: none;
 }
@@ -210,6 +207,10 @@ h1{
     margin-top: 40px;
     display: flex;
     align-items: center;
+}
+
+.button-container1 i{
+    margin-right: 10px;
 }
 
 .button{
@@ -894,7 +895,10 @@ h1{
 
 .grid-link {
     margin-top: auto;
-    
+}
+
+.grid-link2{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 /* End Of Section 7 */
