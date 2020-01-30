@@ -149,7 +149,7 @@ nav ul li a{
 .hero-container .pdih .hero-content{
     margin-top: 50px;
     width: 100%;
-    max-width: 1120px;
+    max-width: 100%;
 }
 
 .hero-container .hero-content{
@@ -302,7 +302,7 @@ h1{
 }
 
 .container-sec2{
-    width: 1200px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -393,10 +393,13 @@ h1{
     text-decoration: none;
     margin: -5px 0px 20px 15px;
     padding: 15px;
+   
+}
+
+.a-card a{
     list-style: none;
     text-decoration: none;
 }
-
 
 .sponsor-logo{
     padding: 50px 20px 20px;
@@ -416,7 +419,7 @@ h1{
     padding: 20px, 50px;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 1440px;
+    max-width: 100%;
     margin: auto;
     overflow: hidden;
 }
@@ -449,8 +452,7 @@ h1{
     background: #3f3177;
     color: rgba(255,255,255,0.7);
     padding: 40px;
-    width: 110%;
-    margin-left: -60px;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -496,11 +498,11 @@ h1{
 }
 
 .gitlab-container{
-    width: 1200px;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 30px;
+    padding-left:30px;
 }
 
 .gitlab-cont2 .position-relative{
@@ -587,6 +589,10 @@ h1{
     height: 44px;
     margin-bottom: 5px;
     fill: #548;
+}
+
+.logo-container-1 a{
+    text-decoration: none;
 }
     
 .solution-container-1 {
@@ -700,15 +706,13 @@ h1{
     color:#ffffff;
     overflow: hidden;
     display: block;
-    width: 118%;
-    margin-left: -75px;
+    width: 100%;
     height: 75vh;
 }
 
 .new-feature::before{
     position: absolute;
     top: 0;
-    left: -6.6%;
     width: 100%;
     height: 100%;
     background: url(Gambar/New\ Feature/sky-bg.jpg) 50% 100%/cover no-repeat;
@@ -740,7 +744,6 @@ h1{
 .feature-description{
     background-image: url(Gambar/New\ Feature/mountain.png);
     top: 80px;
-    max-width: 93.4%;
 }
 
 .feature-description-center{
@@ -794,7 +797,7 @@ h1{
 
 /* Section 7 */
 .container{
-    width: 1200px;
+    width: 100%;
 }
 
 .title-card {
@@ -921,7 +924,6 @@ h1{
     position: relative;
     padding-top: 50px;
     margin-top: 80px;
-    padding-bottom: 50px;
     background-color: rgb(107, 79, 187);
     color: #ffffff;
     z-index: 9;
@@ -937,7 +939,7 @@ h1{
 }
 
 .social-media-container{
-    width: 1200px;
+    width: 100%;
     transition: all .2s linear;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -955,7 +957,6 @@ h1{
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    padding-inline-start: 80px;
 }
 
 .footer ul{
@@ -982,8 +983,7 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 100px;
-    margin-left: 30px;
+
 }
 
 .footer-container-description{
@@ -1009,7 +1009,6 @@ h1{
     position: relative;
     padding-top: 10px;
     margin-top: 20px;
-    padding-bottom: 50px;
     background: #6b4fbb;
     color: #fff;
     z-index: 9;
@@ -1019,6 +1018,7 @@ h1{
     line-height: 30px;
     text-align: left;
     font-size: 16px;
+    font-weight: 500;
 }
 
 .footer-list a{

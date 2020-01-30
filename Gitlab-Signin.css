@@ -26,17 +26,18 @@ body {
 }
 
 .navbar {
-    position: relative;
+    position: absolute;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 0.25rem 0.5rem;
+    width: 100%;
 }
 
 .container-sign {
     padding: 45px 35px;
-    max-width: 1200px;
+    max-width: 1000vh;
     margin-top: 5px;
     width: 100%;
     padding-right: 15px;
@@ -55,6 +56,7 @@ body {
     font-size: 14px;
     position: relative;
     z-index: 1;
+    padding: 0 6%;
 }
 
 .title-container {
@@ -71,6 +73,10 @@ body {
     max-width: 100%;
 }
 
+.title-padding h1{
+    padding-left: 85px;
+}
+
 .title-padding title {
     font-weight: 400 !important;
     margin-bottom: 1rem;
@@ -83,13 +89,15 @@ body {
 
 .description-padding {
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 9vh;
 }
 
 .container-left {
     font-size: 18px;
     line-height: 1.5;
     order: 1;
-    flex: 0 0 58.33333%;
     max-width: 58.33333%;
     position: relative;
     width: 100%;
@@ -107,13 +115,19 @@ body {
     margin-bottom: 1rem;
 }
 
+.container-left a{
+    color: blue;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 .container-right{
     box-sizing: border-box;
-    flex: 0 0 63.66667%;
+    flex: 0 0 40.66667%;
     max-width: 63.66667%;
     position: relative;
     width: 100%;
-    padding-right: 15px;
+    padding-right: 60px;
     padding-left: 15px;
 }
 
@@ -177,6 +191,13 @@ form {
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
+}
+
+
+.flex-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .checkbox-container{
@@ -268,6 +289,7 @@ form {
     color: #2e2e2e;
     color: #2e2e2e;
     white-space: nowrap;
+    text-decoration: none;
 }
 
 .social-media-padding img{
@@ -276,4 +298,97 @@ form {
     margin-right: 16px;
     vertical-align: middle;
     border-style: none;
+}
+
+.github-padding {
+    margin-bottom: 16px;
+    width: 48%;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 10px;
+    background-color: #fff;
+    border-color: #e5e5e5;
+    color: #2e2e2e;
+    color: #2e2e2e;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.twitter-padding {
+    margin-bottom: 16px;
+    width: 48%;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 10px;
+    background-color: #fff;
+    border-color: #e5e5e5;
+    color: #2e2e2e;
+    color: #2e2e2e;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.bitbucket-padding {
+    margin-bottom: 16px;
+    width: 48%;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 10px;
+    background-color: #fff;
+    border-color: #e5e5e5;
+    color: #2e2e2e;
+    color: #2e2e2e;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.salesforce-padding {
+    margin-bottom: 16px;
+    width: 48%;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 10px;
+    background-color: #fff;
+    border-color: #e5e5e5;
+    color: #2e2e2e;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.remember-me-checkbox{
+    box-sizing: border-box;
+    padding: 0;
+    border-radius: 3px;
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.remember-me-checkbox span{
+    align-items: center;
+    display: flex;
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: #fff;
+    padding-top: 0;
+    z-index: 5;
+    
 }
